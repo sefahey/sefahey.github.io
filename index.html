@@ -7,7 +7,7 @@
 <meta name="description" content="Résumé of Seamus Fahey, Economic Research Assistant, Chicago, IL." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,500&family=Source+Sans+3:wght@400;500;600&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --paper:#FAF7F1;
@@ -30,7 +30,7 @@
     margin:0;
     background:var(--paper);
     color:var(--ink-soft);
-    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    font-family:'Source Sans 3', system-ui, sans-serif;
     font-size:16px;
     line-height:1.65;
     -webkit-font-smoothing:antialiased;
@@ -50,7 +50,7 @@
   /* ---------- print button ---------- */
   #printBtn{
     position:fixed; top:22px; right:22px; z-index:90;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:11px; letter-spacing:.08em; text-transform:uppercase;
     background:var(--paper); color:var(--ink-soft);
     border:1px solid var(--rule-strong); border-radius:2px;
@@ -70,14 +70,14 @@
   @keyframes riseIn{ to{ opacity:1; transform:translateY(0); } }
 
   .kicker{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:11px; letter-spacing:.18em; text-transform:uppercase;
     color:var(--muted);
   }
   .kicker .dot{ color:var(--accent); }
 
   h1.name{
-    font-family:'Newsreader', serif;
+    font-family:'Source Serif 4', serif;
     font-weight:700;
     font-size:clamp(2.2rem, 6vw, 3.1rem);
     letter-spacing:.02em;
@@ -87,7 +87,7 @@
   }
 
   .role{
-    font-family:'Newsreader', serif;
+    font-family:'Source Serif 4', serif;
     font-style:italic;
     font-weight:500;
     font-size:1.15rem;
@@ -100,7 +100,7 @@
 
   .masthead-meta{
     display:flex; flex-wrap:wrap; justify-content:center; gap:6px 18px;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:12px; color:var(--muted);
     padding:14px 0 40px;
   }
@@ -114,7 +114,7 @@
 
   .section-label{
     display:flex; align-items:center; gap:12px;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:12px; letter-spacing:.14em; text-transform:uppercase;
     color:var(--accent-deep);
     margin-bottom:20px;
@@ -125,13 +125,13 @@
 
   /* ---------- abstract / summary ---------- */
   .abstract{
-    font-family:'Newsreader', serif;
+    font-family:'Source Serif 4', serif;
     font-size:1.18rem;
     line-height:1.75;
     color:var(--ink-soft);
   }
   .abstract::first-letter{
-    font-family:'Newsreader', serif;
+    font-family:'Source Serif 4', serif;
     font-weight:700;
     font-size:3.6em;
     float:left;
@@ -151,13 +151,13 @@
     padding-bottom:6px; margin-bottom:12px;
   }
   .entry-org{
-    font-family:'Newsreader', serif;
+    font-family:'Source Serif 4', serif;
     font-weight:600;
     font-size:1.18rem;
     color:var(--ink);
   }
   .entry-loc{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:12px; color:var(--muted);
   }
   .entry-sub{
@@ -167,7 +167,7 @@
   }
   .entry-title{ font-weight:600; color:var(--ink-soft); font-size:.98rem; }
   .entry-dates{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:12px; color:var(--accent-deep);
     white-space:nowrap;
   }
@@ -193,7 +193,7 @@
   .citations li::before{
     content:'[' counter(cite) ']';
     position:absolute; left:0; top:0;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:.85rem;
     color:var(--accent-deep);
   }
@@ -203,13 +203,13 @@
   .skill-block{ margin-bottom:22px; }
   .skill-block:last-child{ margin-bottom:0; }
   .skill-block h3{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:11px; letter-spacing:.1em; text-transform:uppercase;
     color:var(--muted); font-weight:500; margin:0 0 10px;
   }
   .chips{ display:flex; flex-wrap:wrap; gap:8px; }
   .chip{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:12.5px; color:var(--ink-soft);
     background:var(--paper-alt);
     border:1px solid var(--rule);
@@ -224,7 +224,7 @@
     text-align:center;
   }
   footer.colophon p{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Source Code Pro', monospace;
     font-size:11px; letter-spacing:.05em;
     color:var(--muted); margin:0 0 4px;
   }
@@ -264,13 +264,13 @@
   <hr class="rule-thick" />
   <hr class="rule-thin" />
   <div class="masthead-meta">
-    <a href="mailto:sefahey1@outlook.com">Email Seamus</a>
+    <a href="mailto:sefahey1@outlook.com">sefahey1@outlook.com</a>
     <span class="sep">&diamond;</span>
     <span>(847) 804-5131</span>
     <span class="sep">&diamond;</span>
     <span>Chicago, IL</span>
     <span class="sep">&diamond;</span>
-    <a href="https://www.linkedin.com/in/sefahey1/" target="_blank" rel="noopener">Seamus's LinkedIn</a>
+    <a href="https://www.linkedin.com/in/sefahey1/" target="_blank" rel="noopener">linkedin.com/in/sefahey1</a>
   </div>
 </header>
 
@@ -278,7 +278,7 @@
 
   <section id="summary">
     <div class="section-label">Abstract</div>
-    <p class="abstract">Economic research assistant with four years of federal regulatory experience, producing economic and financial analysis, writing independent reports and supporting the accuracy and integrity of regulatory reporting and disclosures. Skilled in Excel, R, Python, and other languages, with a track record of reconciling large datasets and strengthening governance and consistency across recurring reporting processes.</p>
+    <p class="abstract">Economic research assistant with four years of federal regulatory experience interpreting supervisory requirements, producing regulatory-relevant analysis, and supporting the accuracy and integrity of regulatory reporting and disclosures. Skilled in SQL, Excel, and data automation in Python and R, with a track record of reconciling large datasets and strengthening governance and consistency across recurring reporting processes.</p>
   </section>
 
   <section id="experience">
